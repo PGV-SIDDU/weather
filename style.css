@@ -7,7 +7,7 @@ body{
 .navright{
     display: flex;
     flex-direction: column;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .navright>i{
@@ -26,7 +26,7 @@ body{
 }
 
 .head-date{
-    font-size: 8px;
+    font-size: 15px;
     color: #637274;
 }
 
@@ -55,7 +55,7 @@ input{
     position: absolute;
     left: 23px;
     top: 18px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .loc-country{
@@ -64,7 +64,7 @@ input{
 
 .today-temp{
     color: #e5f3f3;
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 15px;
 }
 
@@ -91,7 +91,7 @@ input{
 }
 
 .day-box{
-    font-size: 7px;
+    font-size: 15px;
     color: #273746 ;
     border: 1px solid  #aab7b8 ;
     border-radius: 10px;
@@ -104,11 +104,11 @@ input{
 }
 
 .day{
-    font-size: 9px;
+    font-size: 18px;
 }
 
 .day-weather{
-    font-size: 8px;
+    font-size: 16px;
     color: grey;
 }
 
@@ -122,7 +122,7 @@ input{
 }
 
 .ss>i{
-    font-size: 18px;
+    font-size: 36px;
     color:  #f1c40f ;
     margin: 5px 1px 0 0;
 }
@@ -130,7 +130,7 @@ input{
 .ss-time >p{
     margin: 0;
     border: 0;
-    font-size: 8px;
+    font-size: 16px;
 }
 
 .temp-graph{
@@ -173,7 +173,7 @@ input{
     border-radius: 5px;
     padding: 5px;
     margin: 5px 0;
-    background-color: #fcfced;
+    background-color: #ffffff;
 }
 
 .weekdays {
@@ -199,7 +199,7 @@ input{
     width: 13.6%;
     text-align: center;
     margin-bottom: 3px;
-    font-size:6px;
+    font-size:12px;
 }
   
 .days li .active {
@@ -216,7 +216,7 @@ input{
 
 .fa-paper-plane{
     margin: 3px;
-    font-size: 10px;
+    font-size: 20px;
     color:  #f1c40f ;
 }
 
@@ -248,5 +248,5 @@ input{
 
 .notif{
     margin-bottom: 10px;
-    font-size: 8px;
+    font-size: 16px;
 }
