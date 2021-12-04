@@ -11,7 +11,7 @@ body{
 }
 
 .navright>i{
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .navright>i:hover{
@@ -21,7 +21,7 @@ body{
 .heading{
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    margin: 10px;
     justify-content: space-between;
 }
 
@@ -31,13 +31,13 @@ body{
 }
 
 input{
-    border-radius: 15px;
+    border-radius: 30px;
     background-color:   #f2f4f4  ;
     width: 33%;
     border: none;
-    margin: 3px 5px;
-    height: 19px  ;
-    padding: 3px 10px;
+    margin: 6px 10px;
+    height: 38px  ;
+    padding: 6px 20px;
 }
 
 .bg{
@@ -47,14 +47,14 @@ input{
 .cityscape{
     opacity: 0.8;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
 .loc{
     position: absolute;
-    left: 23px;
-    top: 18px;
+    left: 46px;
+    top: 36px;
     font-size: 20px;
 }
 
@@ -65,7 +65,7 @@ input{
 .today-temp{
     color: #e5f3f3;
     font-size: 40px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .sub-head, .sub-head-left, .sub-head-right{
@@ -75,28 +75,28 @@ input{
 }
 
 .sub-head-left > div{
-    margin: 1px;
+    margin: 2px;
     color: #6b6f6f;
 }
 .sub-head-right > div{
-    margin: 1px;
+    margin: 2px;
     border-radius: 50%;
     border: 1px solid #aab7b8;
-    padding: 2px 3px;
+    padding: 4px 6px;
 }
 
 .sub-head{
     justify-content: space-between;
-    margin-top : 10px;
+    margin-top : 20px;
 }
 
 .day-box{
     font-size: 15px;
     color: #273746 ;
-    border: 1px solid  #aab7b8 ;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
+    border: 2px solid  #aab7b8 ;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,7 +113,7 @@ input{
 }
 
 .day-box-right{
-    margin: 3px;
+    margin: 6px;
 }
 
 .ss{
@@ -124,7 +124,7 @@ input{
 .ss>i{
     font-size: 36px;
     color:  #f1c40f ;
-    margin: 5px 1px 0 0;
+    margin: 10px 2px 0 0;
 }
 
 .ss-time >p{
@@ -135,18 +135,18 @@ input{
 
 .temp-graph{
     width: 80%;
-    border-radius: 10px;
-    margin-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .highlights-box{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color:    #f2f4f4    ;
-    margin: 2px 2px 0 2px;
-    padding: 8px;
+    margin: 3px 3px 0 3px;
+    padding: 16px;
 }
 
 .air-quality{
@@ -155,30 +155,30 @@ input{
     flex-direction: row;
     justify-content: space-around;
     width: 75%;
-    padding: 2px;
-    border-radius: 5px;
+    padding: 4px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .calen{
     background-color: #f2f4f4;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
 }
 
 .rightbox{
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
     background-color: #ffffff;
 }
 
 .weekdays {
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .weekdays li {
@@ -189,7 +189,7 @@ input{
 }
   
 .days {
-    padding: 5px 0;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -198,15 +198,15 @@ input{
     display: inline-block;
     width: 13.6%;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     font-size:12px;
 }
   
 .days li .active {
-    padding: 3px;
+    padding: 6px;
     background: #f1c40f;
     border-radius: 50%;
-    padding: 2px 4px;
+    padding: 4px 8px;
   }
 
 .sub{
@@ -215,7 +215,7 @@ input{
 }
 
 .fa-paper-plane{
-    margin: 3px;
+    margin: 6px;
     font-size: 20px;
     color:  #f1c40f ;
 }
@@ -228,7 +228,7 @@ input{
 
 .phone-logo{
     width: 100%;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .play-logo{
@@ -236,17 +236,17 @@ input{
 }
 
 .addcity{
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
 }
 
 .btn-danger{
-    border-radius: 5px;
-    margin: 3px;
+    border-radius: 10px;
+    margin: 6px;
 
 }
 
 .notif{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
 }
